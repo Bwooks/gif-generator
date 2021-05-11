@@ -9,7 +9,7 @@ const UserGif = () => {
         <>
             <div>
                 <input type={'text'} value={tag} onChange={(e) => setGifTag(e.target.value)}/>
-                <button onClick={fetchGif}>Get GIF</button>
+                <button onClick={fetchGif}>Get GIF </button>
             </div>
             <img src={gifSrc}/>
         </>
